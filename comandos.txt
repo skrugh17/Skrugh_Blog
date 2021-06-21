@@ -1,0 +1,28 @@
+pwd: muestra de carpeta de usuario 
+cd /: change directory 
+
+ls : listar archivos se la carpeta actual
+ls -l:  Muestra lista de archivos 
+ls -al: Muestra lista de archivos más archivos ocultos
+ls -a: mustra los archivos por no en forma de lista
+mkdir +"nombre_carpeta": Crear carpeta 
+touch +"nombre_archivo": crea Archivo nuevo
+cat +"archivo" : muestra contenido de archivo
+history: muestra el historial de comandos 
+! + número: Ejecuta comando con el número que nos muestra el history ej, !72
+rm +"archivo": elimina archivo 
+clear ó ctrl + l: Limpiar consola  
+
+
+git init: se crea un repositorio y sale una carpeta .git Se crea el master
+staging: es la memoria ram donde guarda la carpeta.git
+git add  +"archivo" = agrega el archivo al staging
+commit-m: el archivo va al repositorio (master)  
+checkout: Traer lo cambios realizados en archivos del master
+
+Ramas (brench) 
+
+Master: Guarda las diferentes verciones, es el lugar donde están guardados los archivos "commit"
+Experimentos/development: Sirve para crear verciones no oficiales
+bugfixing/hotfixing: Es el campo donde arreglamos los bugs del programa 
+merge: enviar el archivo de experimentos al master -tener cuidado con el proceso porque puede generar "conflictos"
