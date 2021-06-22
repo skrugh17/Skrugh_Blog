@@ -14,5 +14,14 @@
     font-weight: bold;
     background-color:  coral;
     padding: 0px;
+    font-family: verdana;
+    color: azure;
+    background-color: chocolate;
+}
+
+#pretend {
+    color: rgb(92, 243, 243);
+    font-family: fantasy;
+    font-size: 40px;
 
 }
