@@ -1,6 +1,12 @@
 body {
     text-align: center ;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: verdana;
     color: azure;
     background-color: chocolate;
+}
+
+#pretend {
+    color: rgb(92, 243, 243);
+    font-family: fantasy;
+    font-size: 40px;
 }
