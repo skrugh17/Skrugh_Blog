@@ -19,7 +19,7 @@ staging: es la memoria ram donde guarda la carpeta.git
 git add  +"archivo" = agrega el archivo al staging
 commit-m: el archivo va al repositorio (master)  
 checkout: Traer lo cambios realizados en archivos del master
-
+git commit -am "mensaje" : agrega los cambios despues de que ya envias cambios con add 
 Ramas (brench) 
 
 Master: Guarda las diferentes verciones, es el lugar donde están guardados los archivos "commit"
