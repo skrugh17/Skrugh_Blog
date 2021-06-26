@@ -29,3 +29,16 @@ merge: enviar el archivo de experimentos al master -tener cuidado con el proceso
 
 git log: historial de cambios en el archivo
 git reset: volver a la version anterior 
+
+github:
+git remote add origin https://github.com/skrugh17/Skrugh_Blog.git: 
+git remote
+git remote -v
+
+
+
+
+
+
+
+
