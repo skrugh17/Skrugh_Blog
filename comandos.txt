@@ -35,6 +35,11 @@ git remote add origin https://github.com/skrugh17/Skrugh_Blog.git:
 git remote
 git remote -v
 
+LLaves publicas y privadas:
+$ ssh-keygen -t rsa -b 4096 -C "skrugh17@gmail.com": Crear llaves
+
+
+$ eval $(ssh-agent -s) :  revisar que las llaver esten funcionando
 
 
 
