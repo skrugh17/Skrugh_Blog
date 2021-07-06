@@ -41,6 +41,25 @@ $ ssh-keygen -t rsa -b 4096 -C "skrugh17@gmail.com": Crear llaves
 
 $ eval $(ssh-agent -s) :  revisar que las llaver esten funcionando
 
+Tags
+git tag -a 'nombre del tag' -m "mensaje" xxxxx (el hash que quiero taggear)
+git tag: para ver los taggs existentes
+git show-ref --tags: mostrat el tag y su información
+git pull origin master: traer cambios generados en github
+git push origin --tags: Subir el tag a github
+git tag -d 'nombre del tag para borrar': Borrar etiquetas
+git push origin :refs/tags/pepe: borrar la etiqueta en github
+
+
+
+
+
+
+
+
+
+
+
 
 
 
