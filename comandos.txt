@@ -26,6 +26,9 @@ Master: Guarda las diferentes verciones, es el lugar donde están guardados los 
 Experimentos/development: Sirve para crear verciones no oficiales
 bugfixing/hotfixing: Es el campo donde arreglamos los bugs del programa 
 merge: enviar el archivo de experimentos al master -tener cuidado con el proceso porque puede generar "conflictos"
+git push origin "nombre_rama": subir las ramas a github
+git pull origin master: traer cambios del origen al master
+
 
 git log: historial de cambios en el archivo
 git reset: volver a la version anterior 
@@ -50,8 +53,8 @@ git push origin --tags: Subir el tag a github
 git tag -d 'nombre del tag para borrar': Borrar etiquetas
 git push origin :refs/tags/pepe: borrar la etiqueta en github
 
-
-
+Traer proyectos:
+git clone "url del proyecto" 
 
 
 
