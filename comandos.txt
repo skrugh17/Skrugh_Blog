@@ -17,29 +17,19 @@ clear ó ctrl + l: Limpiar consola
 git init: se crea un repositorio y sale una carpeta .git Se crea el master
 staging: es la memoria ram donde guarda la carpeta.git
 git add  +"archivo" = agrega el archivo al staging
-<<<<<<< HEAD
 git checkout: el archivo va al repositorio (master)  
 git commit-m" ": Traer lo cambios realizados en archivos del master
 git commit -am "mensaje" : agrega los cambios despues de que ya envias cambios con add 
 Ramas (branch) 
 git branch: Ver las ramas que estamos usando.
-=======
-commit-m: el archivo va al repositorio (master)  
-checkout: Traer lo cambios realizados en archivos del master
-git commit -am "mensaje" : agrega los cambios despues de que ya envias cambios con add 
-Ramas (brench) 
-
->>>>>>> cabecera
 Master: Guarda las diferentes verciones, es el lugar donde están guardados los archivos "commit"
 Experimentos/development: Sirve para crear verciones no oficiales
 bugfixing/hotfixing: Es el campo donde arreglamos los bugs del programa 
 merge: enviar el archivo de experimentos al master -tener cuidado con el proceso porque puede generar "conflictos"
-git push origin "nombre_rama": subir las ramas a github
-git pull origin master: traer cambios del origen al master
-
 
 git log: historial de cambios en el archivo
 git reset: volver a la version anterior 
+git log --all --graph --decorate --online
 
 github:
 git remote add origin https://github.com/skrugh17/Skrugh_Blog.git: 
@@ -48,9 +38,7 @@ git remote -v
 
 LLaves publicas y privadas:
 $ ssh-keygen -t rsa -b 4096 -C "skrugh17@gmail.com": Crear llaves
-
-
-$ eval $(ssh-agent -s) :  revisar que las llaver esten funcionando
+$ eval $(ssh-agent -s) :  revisar que las llaves esten funcionando
 
 Tags
 git tag -a 'nombre del tag' -m "mensaje" xxxxx (el hash que quiero taggear)
@@ -61,8 +49,8 @@ git push origin --tags: Subir el tag a github
 git tag -d 'nombre del tag para borrar': Borrar etiquetas
 git push origin :refs/tags/pepe: borrar la etiqueta en github
 
-Traer proyectos:
-git clone "url del proyecto" 
+
+
 
 
 
