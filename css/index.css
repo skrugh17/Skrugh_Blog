@@ -1,3 +1,15 @@
+.inicio {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(6, 46, 46);
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 0px;
+    font-family: verdana;
+    color: rgb(6, 46, 46);
+
+}
 #container {
     text-align: center ;
     font-family: Arial, Helvetica, sans-serif;
